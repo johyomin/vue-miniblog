@@ -2,7 +2,7 @@
  
   <div class="clear-all-wrap">
     <span class="clear-all-bt" @click="clearAllMemo">Clear All</span>
-    <span class="copy">Copyright 2022 by Hon Guil Dong</span>
+    <span class="copy">Copyright 2022 by Jo Hyo Min</span>
   </div>
 
 </template>

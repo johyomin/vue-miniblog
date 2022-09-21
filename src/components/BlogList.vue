@@ -33,12 +33,17 @@ export default {
   setup() {
     // vuex store 사용
     const store = useStore();
+    store.dispatch('fetchReadMemo');
     const items = computed( () => store.getters.getMemoArr );
 
-    const removeMemo = (item, index) => {
+    // const items = computed( () => store.getters.getMemoArr );
+
+
+    const removeMemo = (id, index) => {
       // context.emit('removeitem', item, index);
       // store.commit('DELETE_MEMO', {item, index})
-      store.dispatch('fetchDeleteMemo', {item, index})
+      // console.log('삭제 버튼',id);
+      store.dispatch('fetchDeleteMemo', {id, index})
     }
 
     const updateMemo = (item, index) => {      

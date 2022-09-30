@@ -68,7 +68,7 @@ export default {
   }
   .modal-header {
     margin-top: 0;
-    color: #42b983;
+    color: #837ad6;
   }
   .modal-body {
     margin: 20px 0;
@@ -79,14 +79,15 @@ export default {
   .modal-default-button {
     display: block;
     cursor: pointer;
-    color: #e20303;
+    color: #d36853;
     width: 8.5rem;
     height: 50px;
     line-height: 50px;
+    font-weight: 700;
     background-color: #fff;
     border-radius: 5px;
     margin: 20px auto;
-    border: 1px solid #e20303;
+    border: 1px solid #d36853;
   }
   /* 애니메이션 관련 코드 */
   .modal-enter-from {

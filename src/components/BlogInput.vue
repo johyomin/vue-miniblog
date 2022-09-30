@@ -125,7 +125,7 @@
   .img1:active,
   .img2:active,
   .img3:active {
-    outline: 3px solid hotpink;
+    outline: 2px solid #e6c7c1;
   }
 
   .img1 {
@@ -134,7 +134,7 @@
     height: 40px;
     font-size: 0;
     cursor: pointer;
-    background: url('@/assets/images/dog1.png') no-repeat center;
+    background: url('@/assets/images/sun-rise.png') no-repeat center;
     background-size: cover;
   }
   .img2 {
@@ -143,7 +143,7 @@
     height: 40px;
     font-size: 0;
     cursor: pointer;
-    background: url('@/assets/images/dog2.png') no-repeat center;
+    background: url('@/assets/images/sunny.png') no-repeat center;
     background-size: cover;
   }
   .img3 {
@@ -152,13 +152,13 @@
     height: 40px;
     font-size: 0;
     cursor: pointer;
-    background: url('@/assets/images/str.png') no-repeat center;
+    background: url('@/assets/images/night.png') no-repeat center;
     background-size: cover;
   }
 
   .add-bt {
     display: inline-block;
-    background-color: hotpink;
+    background-color: #e6c7c1;
     cursor: pointer;
   }
 

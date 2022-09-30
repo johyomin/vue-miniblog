@@ -43,7 +43,7 @@ export default {
   width: 80%;
   height: 50px;
   cursor: pointer;
-  border: 1px solid hotpink;
+  border: 1px solid #e6c7c1;
   border-radius: 5px;
   margin: 10px;  
 }

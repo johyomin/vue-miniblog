@@ -90,11 +90,11 @@ export default {
   .remove-bt {
     cursor: pointer;
     margin-left: 10px;
-    color: hotpink;
+    color: #e6c7c1;
   }
 
   .check-bt {
-    color: #62acde;
+    color: #d36853;
     line-height: 50px;
     margin-right: 10px;
     cursor: pointer;

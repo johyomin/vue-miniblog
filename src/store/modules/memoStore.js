@@ -46,7 +46,7 @@ const timeUtil = {
 const state = {
   headerText: 'My Diary Memo',
   memoItemArr: [],
-  iconArr: ['dog1.png', 'dog2.png', 'str.png']
+  iconArr: ['sun-rise.png', 'sunny.png', 'night.png']
 };
 
 const actions = {

@@ -1,8 +1,9 @@
 <template>
   <div class="intro-wrap" @click="closeIntro">
-    <h1>My Memo</h1>
+    <h1>My Memo</h1> <br>
     <div class="intro-cont">
-      <img :src="require('@/assets/images/dog1.png')" />
+      <h1 class="intro-text">Click To me !</h1>
+      <img :src="require('@/assets/images/intro.jpg')" />
     </div>
   </div>
 </template>
@@ -21,6 +22,13 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  
+    font-weight: 700;
+    font-size: 60px;
+    color: #321261;
+}
+
   .intro-wrap {
     position: fixed;
     left: 0;
@@ -31,6 +39,16 @@ export default {
     background-color: #fff;
     text-align: center;
     cursor: pointer;
+  }
+
+  .intro-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 30px;
+    color: #97bbf4;
   }
 
 </style>
